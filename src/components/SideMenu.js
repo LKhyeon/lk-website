@@ -11,10 +11,7 @@ import logo from '../Images/temp.png';
 function SideMenu(props) {
     return(
         <div className="sidemenu">
-            <a>
-                Seeing if the color scheme works
-            </a>
-            {/* <Link to={'./MainPage'}>
+            <Link to={'./MainPage'}>
                 <input
                     type='image'
                     src={logo}
@@ -23,7 +20,7 @@ function SideMenu(props) {
             </Link>
             <Link to={'./aboutPage'}> About Me </Link>
             <Link to={'./projectPage'}> Projects </Link>
-            <Link to={'./extraInfoPage'}> Extra </Link> */}
+            <Link to={'./extraInfoPage'}> Extra </Link>
         </div>
     );
 }
