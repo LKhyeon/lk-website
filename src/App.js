@@ -1,15 +1,23 @@
-import BaseReactComponent from './BaseReactComponent';
+// No lodash-es. So not being used as of moment.
+// import BaseReactComponent from './BaseReactComponent';
+import React from 'react';
 
-import logo from './logo.svg';
+// Import Styles
 import './App.css';
 
+// Import Images
+import logo from './logo.svg';
 
-class App extends BaseReactComponent{
+// Import other pages
+import SideMenu from './components/SideMenu';
+
+class App extends React.Component{
 
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          <SideMenu/>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
