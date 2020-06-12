@@ -35,9 +35,6 @@ class SideMenu extends React.Component{
 
         // Set variables depending on whether or not the navigation is open.
         if (this.state.navClass === "navigation") {
-            // close_btn = <a 
-            //     className="close-button" 
-            //     onClick={this.close}> &times; </a>;
             close_btn = <img 
                 src = {close_nav}
                 className = "close-button"
