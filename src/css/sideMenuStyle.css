@@ -1,45 +1,83 @@
 /* The sidebar menu */
-.sidemenu {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 225px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-image: linear-gradient(to bottom, #191919, #191919);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  /* The navigation menu links */
-  .sidemenu a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidemenu a:hover {
-    color:#9799BA;
-  }
-  
-  /* Style page content */
-  .main {
-    margin-left: 225px; /* Same as the width of the sidebar */
-    padding-left: 10px;
-    padding-top: 90px;
-  }
+.navigation {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 255; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-image: linear-gradient(to bottom, #191919, #191919);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  .sidemenu input {
-    width: 200px;
-    height: 100%;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+/* The navigation menu links */
+.navigation a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20pt;
+  color: #ffffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.navigation a:hover {
+  color:#9799BA;
+}
+
+/* Style page content */
+.main {
+  margin-left: 225px; /* Same as the width of the sidebar */
+  padding-left: 10px;
+  padding-top: 90px;
+}
+
+.navigation input {
+  width: 200px;
+  height: 100%;
+}
+
+.navigation .close-button {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.open-button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, 
+change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .navigation {padding-top: 15px;}
+  .navigation a {font-size: 18px;}
+}
+
+/* Styles that are not being used anymore. Left in as a legacy purpose.*/
+
+/* .open-button {
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+} */
+
+/* .open-button:hover {
+  background-color: #9799BA;
+} */
+
+/* Navigation that's been closed. */
+/* .closed-nav {
+  left: 0;
+  width: 0;
+} */

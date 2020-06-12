@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Import Styles
-import './../App.css';
+import '../css/baseStyle.css';
 
 // Import Images
 import logo from './../logo.svg';

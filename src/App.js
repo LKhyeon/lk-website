@@ -8,7 +8,6 @@ import RedirectComponent from './components/Redirect'
 import MainPage from './components/MainPage';
 
 class App extends React.Component{
-
   render() {
     return (
       <Router>
