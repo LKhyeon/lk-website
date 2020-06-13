@@ -30,6 +30,7 @@ class SideMenu extends React.Component{
         let close_btn;
         let icon;
         let link_about;
+        let link_resume;
         let link_projects;
         let link_extra;
 
@@ -47,7 +48,8 @@ class SideMenu extends React.Component{
                             alt={'Home'} 
                         />
                     </Link>;
-            link_about = <Link to={'./about'}> About Me </Link>;
+            link_about = <Link to={'./about'}> About </Link>;
+            link_resume = <Link to={'./resume'}> Resume </Link>;
             link_projects = <Link to={'./projects'}> Projects </Link>;
             link_extra = <Link to={'./extra'}> Extra </Link>;
         } else {
@@ -63,6 +65,7 @@ class SideMenu extends React.Component{
                 {close_btn}
                 {icon}
                 {link_about}
+                {link_resume}
                 {link_projects}
                 {link_extra}
             </div>

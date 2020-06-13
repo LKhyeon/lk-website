@@ -3,6 +3,7 @@ import React from 'react';
 
 // Import Styles
 import '../css/baseStyle.css';
+import '../css/contentStyle.css';
 import '../css/topNavigationStyle.css';
 
 // Import other pages
