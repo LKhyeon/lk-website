@@ -13,7 +13,7 @@ import open_nav from '../Images/hamburger_icon_white.png';
 class SideMenu extends React.Component{
 
     state = {
-        navClass: "navigation"
+        navClass: "closed-nav"
     }
     
     close = () => {

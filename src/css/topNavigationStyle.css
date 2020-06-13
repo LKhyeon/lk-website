@@ -1,0 +1,25 @@
+.tn-container {
+    position: static;
+    background-color: #692b35;
+    min-width: 720px;
+}
+
+.top-nav {
+    position: absolute;
+    right: 5%;
+    top: 10px;
+}
+
+.top-nav a {
+    position: static;
+    float: left;
+    padding: 5px 15px 10px 15px;
+    text-decoration: none;
+    font-size: calc(10px + 2vmin);
+    color: #fde1ae;
+    display: block;
+}
+
+.top-nav a:hover {
+    color:#e49c4a;
+  }
