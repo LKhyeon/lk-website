@@ -6,10 +6,24 @@
 }
 
 .Content {
-    position: absolute;
+    background-color: #282c34;
+    position: relative;
     text-align: center;
     top: 60%;
     width: 100%;
+    min-height: 720px;
+}
+
+.Content-block {
+    background-color: #282c34;
+    position: relative;
+    text-align: left;
+    left: 50px;
+    top: 10%;
+    width: 100%;
+    padding: 5px 15px 10px 15px;
+    font-size: calc(10px + 2vmin);
+    color: #fde1ae;
 }
 
 .Content-logo {
@@ -53,6 +67,5 @@
     height : 100%;
     width : 100%;
     min-width: 720px;
-    top: 60px;
 }
   

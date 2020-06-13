@@ -8,8 +8,7 @@ import '../css/topNavigationStyle.css';
 
 // Import Images
 import logo from './../logo.svg';
-// From behance.net
-import geometric from '../Images/58064.jpg'
+import geometric from '../Images/main_bg.jpg'
 
 // Import other pages
 import SideMenu from './SideMenu';
@@ -21,6 +20,7 @@ class MainPage extends React.Component {
         return (
             <div className="App">
                 <SideMenu/>
+                <TopNavigation/>
                 <img className ='bg-img' src = {geometric} alt="background" />
                 {/* Anything that overlays over the background falls here.*/}
                 <div className = "Content">
@@ -39,7 +39,6 @@ class MainPage extends React.Component {
                     </a>
                     </header>
                 </div>
-                <TopNavigation/>
             </div>
         );
     }
