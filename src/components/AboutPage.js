@@ -17,6 +17,7 @@ import latex_icon from '../Images/LaTeX_logo_white.png'
 import react_logo from '../Images/react_logo.png'
 import pytorch_logo from '../Images/pytorch_white.png'
 import git_logo from '../Images/git_logo_white.png'
+import postgresql_logo from '../Images/postgresql_white.png'
 
 // Import other pages
 import SideMenu from './SideMenu';
@@ -40,9 +41,10 @@ class AboutPage extends React.Component {
                         </p>
                     </div>
                     <div className="Content-block">
-                        <p className='Content-title'> 
+                        <a className='Content-title' href='./Resume#resume_skills'> 
                             PROGRAMMING LANGUAGES 
-                        </p>
+                        </a>
+                        <p> (Click for more details) </p>
                         <a href='https://www.python.org/' target="_blank"
                             rel="noopener noreferrer">
                             <img 
@@ -77,9 +79,10 @@ class AboutPage extends React.Component {
                         </a> 
                     </div>
                     <div className="Content-block">
-                        <p className='Content-title'> 
+                        <a className='Content-title' href='./Resume#resume_skills'> 
                             PROGRAMMING SKILLS
-                        </p>
+                        </a>
+                        <p> (Click for more details) </p>
                         <a href='https://numpy.org/' 
                             target='_black' rel="noopener noreferrer">
                             <img 
@@ -94,6 +97,14 @@ class AboutPage extends React.Component {
                                 className='package-icon' 
                                 src={pytorch_logo} 
                                 alt = 'Pytorch icon'
+                            />
+                        </a>
+                        <a href='https://www.postgresql.org/' 
+                            target='_black' rel="noopener noreferrer">
+                            <img 
+                                className='package-icon' 
+                                src={postgresql_logo} 
+                                alt = 'PostgreSQL icon'
                             />
                         </a>
                         <a href='https://reactjs.org/' 

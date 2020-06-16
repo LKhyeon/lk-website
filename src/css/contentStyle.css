@@ -27,7 +27,14 @@
 
 .Content-title {
     font-weight: bold;
-    font-size: calc(10px + 2vmin);
+    text-decoration: underline;
+    font-size: calc(12px + 2vmin);
+    color: #fde1ae;
+}
+
+.Content-subtitle {
+    font-weight: bold;
+    font-size: calc(9px + 2vmin);
     color: #fde1ae;
 }
 
