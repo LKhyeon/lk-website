@@ -23,7 +23,7 @@ class ExtraPage extends React.Component {
                         </p>
                         <p> 
                             Honours Bachelors of Science at University of Toronto
-                            {/* (with distinction) */}  <br/>
+                            (with distinction)  <br/>
                             Computer Science 
                             (focus in Artificial Intelligence)
                         </p>
@@ -47,7 +47,7 @@ class ExtraPage extends React.Component {
                             Math and computer science tutor at a private academy 
                         </p>
                         <p className='Content-subtitle'>
-                            NOV 2018 - CURRENT
+                            JAN 2020 - APR 2020
                         </p>
                         <p>
                             Teaching Assistance at University of Toronto for CSC148 <br/>

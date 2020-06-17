@@ -5,6 +5,10 @@ import React from 'react';
 import '../css/baseStyle.css';
 import '../css/contentStyle.css';
 import '../css/topNavigationStyle.css';
+import '../css/iconStyle.css';
+
+// Import images
+import lol from '../Images/ha.png'
 
 // Import other pages
 import SideMenu from './SideMenu';
@@ -15,12 +19,15 @@ class ExtraPage extends React.Component {
         return(
             <div className="App">
                 <SideMenu/>
-                <div className='Content'>
-                    <header className="Content-header">
-                        <p> Add Contents </p>
-                    </header>
-                </div>
                 <TopNavigation/>
+                <div className = "Content">
+                    <div className="Content-block">
+                        <img src={lol} className="Content-logo" alt="logo" />
+                        <p className='Content-subtitle'>
+                            There is nothing in this page right now ...
+                        </p>
+                    </div>
+                </div>
             </div>
         );
     }

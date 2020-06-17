@@ -64,10 +64,10 @@ class SideMenu extends React.Component{
                 {open_btn}
                 {close_btn}
                 {icon}
-                {link_about}
                 {link_resume}
                 {link_projects}
                 {link_extra}
+                {link_about}
             </div>
         );
     }
