@@ -62,6 +62,15 @@ change the style of the sidebar (less padding and a smaller font size) */
   .navigation a {font-size: 18px;}
 }
 
+.logo-side{
+  /* width: 100px; */
+  height: 100px;
+  min-width: 50px;
+  min-height: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 /* Styles that are not being used anymore. Left in as a legacy purpose.*/
 
 /* .open-button {

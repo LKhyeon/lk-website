@@ -9,7 +9,7 @@ import '../css/topNavigationStyle.css';
 import '../css/iconStyle.css';
 
 // Import Images
-import geometric from '../Images/main_bg.jpg'
+import geometric from '../Images/main_bg2.jpg'
 import py_icon from '../Images/Python_icon_300_gold.png'
 import java_icon from '../Images/java_300_gold.png'
 import c_icon from '../Images/C_logo_300_gold.png'

@@ -33,7 +33,7 @@ class ExtraPage extends React.Component {
                         </p>
                         <p> 
                             Python, Java, C, JavaScript, Object Oriented Programming, <br/>
-                            Web development (HTML, CSS), React, database (SQL) <br/> 
+                            Web development (HTML, CSS), React, NodeJS, database (SQL) <br/> 
                             Machine Learning (PyTorch), Numpy, Agile
                         </p>
                         <p className='Content-title'> 
@@ -58,6 +58,7 @@ class ExtraPage extends React.Component {
                             AWARDS
                         </p>
                         <p> 
+                            (OCT 2015) President's Entrance Scholarships <br/>
                             (NOV 2016) The Chancellor's Scholarships
                         </p>
                         <a className='Content-title' href='./projects' > 
@@ -65,37 +66,38 @@ class ExtraPage extends React.Component {
                             PROJECTS 
                         </a>
                         <p> (Click for more details) </p>
-                        <p className='Content-subtitle'>
+                        <a className='Content-subtitle' href='./projects#OCR' > 
                             Optical Character Recognition
-                        </p>
+                        </a>
                         <p> 
                             Personal project developed using python. <br/>
                             Number of image processing and machine learning techniques <br/>
                             were used to convert characters on an image to a text file. 
                         </p>
-                        <p className='Content-subtitle'>
+                        <a className='Content-subtitle' href='./projects#PetLabs' > 
                             PetLabs
-                        </p>
+                        </a>
                         <p> 
                             An webgame simple webgame inspired by “Cookie-clicker” and “Tamagotchi”. <br/>
                             It was developed with a team of 3 people using Agile development process. <br/>
                             MongoDB was used to store the user data, and admins have access to these database. <br/>
                             Implemented using Javascript, React, NodeJS, yarn, and Express.js.
                         </p>
-                        <p className='Content-subtitle'>
+                        <a className='Content-subtitle' href='./projects#CourseEvalApp' > 
                             Course Evaluation App
-                        </p>
+                        </a>
                         <p> 
                             An android app project developed with a team of 6 people using Agile development process. <br/>
                             AndroidStudio was used to develop both the user interface and the database.
                         </p>
-                        <p className='Content-subtitle'>
+                        <a className='Content-subtitle' href='./projects#Hands4MentalHealth' > 
                             Hands for Mental Health
-                        </p>
+                        </a>
                         <p> 
-                            HCI/UXD project developed with a team of 5 people.<br/>
-                            Background research, interviews, surveys, and monitoring were used to identify our target population’s needs. <br/>
-                            To correctly meet target population’s needs, we tested different versions of our model with the help of volunteers.
+                            HCI/UXD project developed with a team of 5 people. Background research, interviews, <br/>
+                            surveys, and monitoring were used to identify our target population’s needs.  To correctly <br/>
+                            meet target population’s needs, we tested different versions of our model with the help of 
+                            volunteers. <br/>
                         </p>
                     </header>
                 </div>

@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 
 // Import Styles
 import '../css/sideMenuStyle.css';
+import '../css/iconStyle.css';
 
 // Import Images
-import logo from '../Images/temp.png';
+import logo from '../Images/LKIM_LOGO.png';
 import close_nav from '../Images/close_nav_temp.png';
 import open_nav from '../Images/hamburger_icon_white.png';
 
@@ -29,6 +30,7 @@ class SideMenu extends React.Component{
         let open_btn
         let close_btn;
         let icon;
+        let link_home;
         let link_about;
         let link_resume;
         let link_projects;
@@ -41,17 +43,12 @@ class SideMenu extends React.Component{
                 className = "close-button"
                 alt =  "A button to close the navigation."
                 onClick = {this.close} />;
-            icon = <Link to={'./main'}>
-                        <input
-                            type='image'
-                            src={logo}
-                            alt={'Home'} 
-                        />
-                    </Link>;
-            link_about = <Link to={'./about'}> About </Link>;
-            link_resume = <Link to={'./resume'}> Resume </Link>;
-            link_projects = <Link to={'./projects'}> Projects </Link>;
-            link_extra = <Link to={'./extra'}> Extra </Link>;
+            icon = <img src={logo} className='logo-side' alt='Main Logo'/>
+            link_home = <Link to={'./main'}> HOME </Link>;
+            link_about = <Link to={'./about'}> ABOUT </Link>;
+            link_resume = <Link to={'./resume'}> RESUME </Link>;
+            link_projects = <Link to={'./projects'}> PROJECTS </Link>;
+            link_extra = <Link to={'./extra'}> EXTRA </Link>;
         } else {
             open_btn = <img 
                 src = {open_nav}
@@ -64,6 +61,7 @@ class SideMenu extends React.Component{
                 {open_btn}
                 {close_btn}
                 {icon}
+                {link_home}
                 {link_resume}
                 {link_projects}
                 {link_extra}

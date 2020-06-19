@@ -20,6 +20,10 @@
     background-color: #282c34;
 }
 
+.Content-block a {
+    color: #fde1ae;
+}
+
 .Content-block ul li {
     display:inline-block;
     vertical-align: middle;

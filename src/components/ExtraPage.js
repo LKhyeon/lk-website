@@ -8,7 +8,7 @@ import '../css/topNavigationStyle.css';
 import '../css/iconStyle.css';
 
 // Import images
-import lol from '../Images/ha.png'
+import logo from '../Images/LKIM_LOGO.png'
 
 // Import other pages
 import SideMenu from './SideMenu';
@@ -22,9 +22,12 @@ class ExtraPage extends React.Component {
                 <TopNavigation/>
                 <div className = "Content">
                     <div className="Content-block">
-                        <img src={lol} className="Content-logo" alt="logo" />
+                        <p className='Content-title'> 
+                            EXTRA INFORMATION
+                        </p>
+                        <img src={logo} className="logo-icon" alt="logo" />
                         <p className='Content-subtitle'>
-                            There is nothing in this page right now ...
+                            There is nothing on this page right now ...
                         </p>
                     </div>
                 </div>

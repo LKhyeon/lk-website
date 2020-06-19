@@ -9,6 +9,7 @@ import '../css/iconStyle.css';
 
 // Import images
 import logo from './../logo.svg';
+import bg from '../Images/main_bg2.jpg'
 
 // Import other pages
 import SideMenu from './SideMenu';
@@ -27,13 +28,26 @@ class AboutPage extends React.Component {
                         </p>
                         <img src={logo} className="Content-logo" alt="logo" />
                         <p className='Content-subtitle'>
-                            This website was created using React
+                            This website was created using React <br/>
+                            and was designed by me
                         </p>
                         <a className='Content-subtitle' 
                             href='https://github.com/LKhyeon/lk-website' 
                             target="_blank"
                             rel="noopener noreferrer"> 
-                            SOURCE CODE
+                            SOURCE CODE <br/>
+                            <br/>
+                            <br/>
+                        </a>
+                        <img src={bg} className="logo-icon" alt="Attributing to the designer" />
+                        <a className='Content-subtitle'
+                            href="http://www.freepik.com"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <br/>
+                            Link to the image on the HOME page 
+                            (designed by pikisuperstar)<br/>
+                            <br/>
                         </a>
                     </div>
                 </div>
