@@ -61,12 +61,12 @@ class ExtraPage extends React.Component {
                             (OCT 2015) President's Entrance Scholarships <br/>
                             (NOV 2016) The Chancellor's Scholarships
                         </p>
-                        <a className='Content-title' href='./lk-website/projects' > 
+                        <a className='Content-title' href='./projects' > 
                             <br/>
                             PROJECTS 
                         </a>
                         <p> (Click for more details) </p>
-                        <a className='Content-subtitle' href='./lk-website/projects#OCR' > 
+                        <a className='Content-subtitle' href='./projects#OCR' > 
                             Optical Character Recognition
                         </a>
                         <p> 
@@ -74,7 +74,7 @@ class ExtraPage extends React.Component {
                             Number of image processing and machine learning techniques <br/>
                             were used to convert characters on an image to a text file. 
                         </p>
-                        <a className='Content-subtitle' href='./lk-website/projects#PetLabs' > 
+                        <a className='Content-subtitle' href='./projects#PetLabs' > 
                             PetLabs
                         </a>
                         <p> 
@@ -83,14 +83,14 @@ class ExtraPage extends React.Component {
                             MongoDB was used to store the user data, and admins have access to these database. <br/>
                             Implemented using Javascript, React, NodeJS, yarn, and Express.js.
                         </p>
-                        <a className='Content-subtitle' href='./lk-website/projects#CourseEvalApp' > 
+                        <a className='Content-subtitle' href='./projects#CourseEvalApp' > 
                             Course Evaluation App
                         </a>
                         <p> 
                             An android app project developed with a team of 6 people using Agile development process. <br/>
                             AndroidStudio was used to develop both the user interface and the database.
                         </p>
-                        <a className='Content-subtitle' href='./lk-website/projects#Hands4MentalHealth' > 
+                        <a className='Content-subtitle' href='./projects#Hands4MentalHealth' > 
                             Hands for Mental Health
                         </a>
                         <p> 
