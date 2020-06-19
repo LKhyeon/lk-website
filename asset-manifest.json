@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/lk-website/static/css/main.c60f9e6f.chunk.css",
+    "main.js": "/lk-website/static/js/main.15c0ef42.chunk.js",
+    "main.js.map": "/lk-website/static/js/main.15c0ef42.chunk.js.map",
+    "runtime-main.js": "/lk-website/static/js/runtime-main.8e7b1e58.js",
+    "runtime-main.js.map": "/lk-website/static/js/runtime-main.8e7b1e58.js.map",
+    "static/js/2.623701e6.chunk.js": "/lk-website/static/js/2.623701e6.chunk.js",
+    "static/js/2.623701e6.chunk.js.map": "/lk-website/static/js/2.623701e6.chunk.js.map",
+    "index.html": "/lk-website/index.html",
+    "precache-manifest.809ea05e2e2b1c1b3c5a1ba5bc6092e4.js": "/lk-website/precache-manifest.809ea05e2e2b1c1b3c5a1ba5bc6092e4.js",
+    "service-worker.js": "/lk-website/service-worker.js",
+    "static/css/main.c60f9e6f.chunk.css.map": "/lk-website/static/css/main.c60f9e6f.chunk.css.map",
+    "static/js/2.623701e6.chunk.js.LICENSE.txt": "/lk-website/static/js/2.623701e6.chunk.js.LICENSE.txt",
+    "static/media/LKIM_LOGO.png": "/lk-website/static/media/LKIM_LOGO.b1f8b21e.png",
+    "static/media/hamburger_icon_white.png": "/lk-website/static/media/hamburger_icon_white.90e1cb40.png",
+    "static/media/java_300_gold.png": "/lk-website/static/media/java_300_gold.a5e3a2eb.png",
+    "static/media/linkedin_gold2.png": "/lk-website/static/media/linkedin_gold2.91e77d12.png",
+    "static/media/logo.svg": "/lk-website/static/media/logo.5d5d9eef.svg",
+    "static/media/main_bg2.jpg": "/lk-website/static/media/main_bg2.5dd96103.jpg",
+    "static/media/numpy_icon_gold.png": "/lk-website/static/media/numpy_icon_gold.f04b82d2.png",
+    "static/media/postgresql_white.png": "/lk-website/static/media/postgresql_white.d95f90fe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e7b1e58.js",
+    "static/js/2.623701e6.chunk.js",
+    "static/css/main.c60f9e6f.chunk.css",
+    "static/js/main.15c0ef42.chunk.js"
+  ]
+}
