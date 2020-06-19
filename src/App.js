@@ -14,7 +14,7 @@ import ExtraPage from './components/ExtraPage';
 class App extends React.Component{
   render() {
     return (
-      <Router>
+      <Router basename='/lk-website'>
           <Switch>
               <Route path="/" exact component={RedirectComponent} />
               <Route path="/main" exact component={MainPage} />
