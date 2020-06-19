@@ -71,7 +71,7 @@ class MainPage extends React.Component {
                             QUICK OVERVIEW <br/>
                             <br/>
                         </p>
-                        <p className='Content-subtitle'> {/*href='./Resume#resume_skills'>*/} 
+                        <p className='Content-subtitle'>
                             PROGRAMMING LANGUAGES <br/>
                             <br/>
                         </p>
@@ -109,7 +109,7 @@ class MainPage extends React.Component {
                         </a> 
                     </div>
                     <div className="Content-block">
-                        <p className='Content-subtitle'> {/*href='./Resume#resume_skills'>*/} 
+                        <p className='Content-subtitle'>
                             PROGRAMMING SKILLS<br/>
                             <br/>
                         </p>
@@ -161,12 +161,6 @@ class MainPage extends React.Component {
                                 alt = 'Git icon'
                             />
                         </a>
-                        {/* <ul>
-                            <li>
-                                Machine Learning <br/>
-                                (Tensorflow, PyTorch)
-                            </li>
-                        </ul> */}
                     </div>
                 </div>
             </div>
