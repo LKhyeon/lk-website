@@ -2,7 +2,7 @@
   "name": "lk-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LKhyeon.github.io/lk-website",
+  "homepage": "https://lkhyeon.github.io/lk-website",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
