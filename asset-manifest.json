@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lk-website/static/css/main.c60f9e6f.chunk.css",
-    "main.js": "/lk-website/static/js/main.77f7abbf.chunk.js",
-    "main.js.map": "/lk-website/static/js/main.77f7abbf.chunk.js.map",
+    "main.js": "/lk-website/static/js/main.4d1dced5.chunk.js",
+    "main.js.map": "/lk-website/static/js/main.4d1dced5.chunk.js.map",
     "runtime-main.js": "/lk-website/static/js/runtime-main.8e7b1e58.js",
     "runtime-main.js.map": "/lk-website/static/js/runtime-main.8e7b1e58.js.map",
     "static/js/2.623701e6.chunk.js": "/lk-website/static/js/2.623701e6.chunk.js",
     "static/js/2.623701e6.chunk.js.map": "/lk-website/static/js/2.623701e6.chunk.js.map",
     "index.html": "/lk-website/index.html",
-    "precache-manifest.17ea7e07a9dfde1954798f55b6f22e3e.js": "/lk-website/precache-manifest.17ea7e07a9dfde1954798f55b6f22e3e.js",
+    "precache-manifest.f1af13d20f64fe8377e67b4cef06dd81.js": "/lk-website/precache-manifest.f1af13d20f64fe8377e67b4cef06dd81.js",
     "service-worker.js": "/lk-website/service-worker.js",
     "static/css/main.c60f9e6f.chunk.css.map": "/lk-website/static/css/main.c60f9e6f.chunk.css.map",
     "static/js/2.623701e6.chunk.js.LICENSE.txt": "/lk-website/static/js/2.623701e6.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.8e7b1e58.js",
     "static/js/2.623701e6.chunk.js",
     "static/css/main.c60f9e6f.chunk.css",
-    "static/js/main.77f7abbf.chunk.js"
+    "static/js/main.4d1dced5.chunk.js"
   ]
 }
