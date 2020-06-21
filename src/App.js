@@ -14,7 +14,7 @@ import ExtraPage from './components/ExtraPage';
 class App extends React.Component{
   render() {
     return (
-      <HashRouter basename='/lk-website'>
+      <HashRouter hashType={"noslash"}>
           <Switch>
               <Route path="/" component={RedirectComponent} />
               <Route path="/main" component={MainPage} />
