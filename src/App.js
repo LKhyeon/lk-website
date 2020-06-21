@@ -16,7 +16,7 @@ class App extends React.Component{
     return (
       <HashRouter hashType={"noslash"}>
           <Switch>
-              <Route path="/" component={RedirectComponent} />
+              <Route path="/" component={MainPage} />
               <Route path="/#main" component={MainPage} />
               <Route path="/#about" component={AboutPage} />
               <Route path="/#resume" component={Resume} />
