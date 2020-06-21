@@ -1,7 +1,7 @@
 // No lodash-es. So not being used as of moment.
 // import BaseReactComponent from './BaseReactComponent';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 
 // Import other pages
 import RedirectComponent from './components/Redirect';
@@ -14,7 +14,7 @@ import ExtraPage from './components/ExtraPage';
 class App extends React.Component{
   render() {
     return (
-      <Router basename='/lk-website'>
+      <HashRouter basename='/lk-website'>
           <Switch>
               <Route path="/" exact component={RedirectComponent} />
               <Route path="/main" exact component={MainPage} />
@@ -23,7 +23,7 @@ class App extends React.Component{
               <Route path="/projects" exact component={ProjectPage} />
               <Route path="/extra" exact component={ExtraPage} />
           </Switch>
-      </Router>
+      </HashRouter>
     );
   }
 }
