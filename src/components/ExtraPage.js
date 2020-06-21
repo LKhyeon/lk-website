@@ -10,16 +10,12 @@ import '../css/iconStyle.css';
 // Import images
 import logo from '../Images/LKIM_LOGO.png'
 
-// // Import other pages
-// import SideMenu from './SideMenu';
-// import TopNavigation from './TopNavigation';
+// Import other pages
 
 class ExtraPage extends React.Component {
     render() {
         return(
             <div className="App">
-                {/* <SideMenu/>
-                <TopNavigation/> */}
                 <div className = "Content">
                     <div className="Content-block">
                         <p className='Content-title'> 

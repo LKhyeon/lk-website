@@ -12,15 +12,11 @@ import logo from './../logo.svg';
 import bg from '../Images/main_bg2.jpg'
 
 // // Import other pages
-// import SideMenu from './SideMenu';
-// import TopNavigation from './TopNavigation';
 
 class AboutPage extends React.Component {
     render() {
         return(
             <div className="App">
-                {/* <SideMenu/>
-                <TopNavigation/> */}
                 <div className = "Content">
                     <div className="Content-block">
                         <p className='Content-title'> 

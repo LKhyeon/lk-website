@@ -10,17 +10,13 @@ import '../css/iconStyle.css';
 // Import images
 import github_icon from '../Images/GitHub.png'
 
-// // Import other pages
-// import SideMenu from './SideMenu';
-// import TopNavigation from './TopNavigation';
+// Import other pages
 
 
 class ProjectPage extends React.Component {
     render() {
         return(
             <div className="App">
-                {/* <SideMenu/>
-                <TopNavigation/> */}
                 <div className='Content'>
                     <div className="Content-block">
                         <p className='Content-title'> 
