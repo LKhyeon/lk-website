@@ -16,12 +16,12 @@ class App extends React.Component{
     return (
       <HashRouter basename='/lk-website'>
           <Switch>
-              <Route path="/" exact component={RedirectComponent} />
-              <Route path="/main" exact component={MainPage} />
-              <Route path="/about" exact component={AboutPage} />
-              <Route path="/resume" exact component={Resume} />
-              <Route path="/projects" exact component={ProjectPage} />
-              <Route path="/extra" exact component={ExtraPage} />
+              <Route path="/" component={RedirectComponent} />
+              <Route path="/main" component={MainPage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/resume" component={Resume} />
+              <Route path="/projects" component={ProjectPage} />
+              <Route path="/extra" component={ExtraPage} />
           </Switch>
       </HashRouter>
     );

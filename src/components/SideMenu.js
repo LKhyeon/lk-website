@@ -44,11 +44,11 @@ class SideMenu extends React.Component{
                 alt =  "A button to close the navigation."
                 onClick = {this.close} />;
             icon = <img src={logo} className='logo-side' alt='Main Logo'/>
-            link_home = <Link to='./main'> HOME </Link>;
-            link_about = <Link to='./about'> ABOUT </Link>;
-            link_resume = <Link to='./resume'> RESUME </Link>;
-            link_projects = <Link to='./projects'> PROJECTS </Link>;
-            link_extra = <Link to='./extra'> EXTRA </Link>;
+            link_home = <Link to='/main'> HOME </Link>;
+            link_about = <Link to='/about'> ABOUT </Link>;
+            link_resume = <Link to='/resume'> RESUME </Link>;
+            link_projects = <Link to='/projects'> PROJECTS </Link>;
+            link_extra = <Link to='/extra'> EXTRA </Link>;
         } else {
             open_btn = <img 
                 src = {open_nav}
