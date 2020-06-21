@@ -4,7 +4,7 @@ import React from 'react';
 import {HashRouter, Switch, Route} from 'react-router-dom';
 
 // Import other pages
-import RedirectComponent from './components/Redirect';
+// import RedirectComponent from './components/Redirect';
 import MainPage from './components/MainPage';
 import AboutPage from './components/AboutPage';
 import Resume from './components/Resume';
@@ -16,7 +16,7 @@ class App extends React.Component{
     return (
       <HashRouter hashType={"noslash"}>
           <Switch>
-              <Route path="/" component={RedirectComponent} />
+              <Route path="/" component={MainPage} />
               <Route path="/main" component={MainPage} />
               <Route path="/about" component={AboutPage} />
               <Route path="/resume" component={Resume} />
