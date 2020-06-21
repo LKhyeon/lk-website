@@ -17,18 +17,20 @@ import TopNavigation from './components/TopNavigation';
 class App extends React.Component{
   render() {
     return (
-      <HashRouter>
-        <SideMenu/>
-        <TopNavigation/>
-        <Switch>
-          <Route exact path="/" component={MainPage} />
-          <Route path="/main" component={MainPage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/projects" component={ProjectPage} />
-          <Route path="/extra" component={ExtraPage} />
-        </Switch>
-      </HashRouter>
+      <div className='app-container'>
+        <HashRouter>
+          <SideMenu/>
+          <TopNavigation/>
+          <Switch>
+            <Route exact path="/" component={MainPage} />
+            <Route path="/main" component={MainPage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/projects" component={ProjectPage} />
+            <Route path="/extra" component={ExtraPage} />
+          </Switch>
+        </HashRouter>
+      </div>
     );
   }
 }
