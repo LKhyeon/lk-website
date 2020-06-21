@@ -1,7 +1,7 @@
 // No lodash-es. So not being used as of moment.
 // import BaseReactComponent from './BaseReactComponent';
 import React from 'react';
-import {HashRouter} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 
 // Import other pages
 import RedirectComponent from './components/Redirect';
