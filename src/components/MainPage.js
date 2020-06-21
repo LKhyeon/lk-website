@@ -23,17 +23,15 @@ import postgresql_logo from '../Images/postgresql_white.png'
 import github_logo from '../Images/GitHub_gold.png'
 import linkedin_logo from '../Images/linkedin_gold2.png'
 
-// Import other pages
-import SideMenu from './SideMenu';
-import TopNavigation from './TopNavigation';
+// // Import other pages
+// import SideMenu from './SideMenu';
+// import TopNavigation from './TopNavigation';
 
 class MainPage extends React.Component {
 
     render() {
         return (
             <div className="App">
-                <SideMenu/>
-                <TopNavigation/>
                 <img className ='bg-img' src = {geometric} alt="background" />
                 {/* Anything that overlays over the background falls here.*/}
                 <div className='Content'>

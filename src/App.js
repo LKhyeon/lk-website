@@ -11,18 +11,23 @@ import Resume from './components/Resume';
 import ProjectPage from './components/ProjectPage';
 import ExtraPage from './components/ExtraPage';
 
+import SideMenu from './SideMenu';
+import TopNavigation from './TopNavigation';
+
 class App extends React.Component{
   render() {
     return (
       <HashRouter hashType={"noslash"}>
-          <Switch>
-              <Route path="/" component={MainPage} />
-              <Route path="/main" component={MainPage} />
-              <Route path="/about" component={AboutPage} />
-              <Route path="/resume" component={Resume} />
-              <Route path="/projects" component={ProjectPage} />
-              <Route path="/extra" component={ExtraPage} />
-          </Switch>
+        <SideMenu/>
+        <TopNavigation/>
+        <Switch>
+          <Route path="/" component={MainPage} />
+          <Route path="/main" component={MainPage} />
+          <Route path="/about" component={AboutPage} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/projects" component={ProjectPage} />
+          <Route path="/extra" component={ExtraPage} />
+        </Switch>
       </HashRouter>
     );
   }
