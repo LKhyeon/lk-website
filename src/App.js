@@ -11,8 +11,8 @@ import Resume from './components/Resume';
 import ProjectPage from './components/ProjectPage';
 import ExtraPage from './components/ExtraPage';
 
-import SideMenu from './SideMenu';
-import TopNavigation from './TopNavigation';
+import SideMenu from './components/SideMenu';
+import TopNavigation from './components/TopNavigation';
 
 class App extends React.Component{
   render() {
