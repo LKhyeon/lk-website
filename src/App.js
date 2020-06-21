@@ -17,7 +17,7 @@ import TopNavigation from './components/TopNavigation';
 class App extends React.Component{
   render() {
     return (
-      <HashRouter hashType={"noslash"}>
+      <HashRouter>
         <SideMenu/>
         <TopNavigation/>
         <Switch>
