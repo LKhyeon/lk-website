@@ -21,7 +21,7 @@ class App extends React.Component{
         <SideMenu/>
         <TopNavigation/>
         <Switch>
-          <Route path="/" component={MainPage} />
+          <Route exact path="/" component={MainPage} />
           <Route path="/main" component={MainPage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/resume" component={Resume} />
