@@ -57,38 +57,38 @@ class ExtraPage extends React.Component {
                             (OCT 2015) President's Entrance Scholarships <br/>
                             (NOV 2016) The Chancellor's Scholarships
                         </p>
-                        <a className='Content-title' href='./projects' > 
+                        <p className='Content-title'> 
                             <br/>
                             PROJECTS 
-                        </a>
-                        <p> (Click for more details) </p>
-                        <a className='Content-subtitle' href='./projects#OCR' > 
+                        </p>
+                        <p> (Please check PROJECTS tab for more details) </p>
+                        <p className='Content-subtitle'> 
                             Optical Character Recognition
-                        </a>
+                        </p>
                         <p> 
                             Personal project developed using python. <br/>
                             Number of image processing and machine learning techniques <br/>
                             were used to convert characters on an image to a text file. 
                         </p>
-                        <a className='Content-subtitle' href='./projects#PetLabs' > 
+                        <p className='Content-subtitle'> 
                             PetLabs
-                        </a>
+                        </p>
                         <p> 
                             An webgame simple webgame inspired by “Cookie-clicker” and “Tamagotchi”. <br/>
                             It was developed with a team of 3 people using Agile development process. <br/>
                             MongoDB was used to store the user data, and admins have access to these database. <br/>
                             Implemented using Javascript, React, NodeJS, yarn, and Express.js.
                         </p>
-                        <a className='Content-subtitle' href='./projects#CourseEvalApp' > 
+                        <p className='Content-subtitle'> 
                             Course Evaluation App
-                        </a>
+                        </p>
                         <p> 
                             An android app project developed with a team of 6 people using Agile development process. <br/>
                             AndroidStudio was used to develop both the user interface and the database.
                         </p>
-                        <a className='Content-subtitle' href='./projects#Hands4MentalHealth' > 
+                        <p className='Content-subtitle'> 
                             Hands for Mental Health
-                        </a>
+                        </p>
                         <p> 
                             HCI/UXD project developed with a team of 5 people. Background research, interviews, <br/>
                             surveys, and monitoring were used to identify our target population’s needs.  To correctly <br/>
