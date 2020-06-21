@@ -11,4 +11,7 @@
     width : 100%;
     min-width: 720px;
 }
-  
+
+.app-container {
+    background-color: #282c34;
+}
